@@ -8,7 +8,8 @@
     <title>Greetings From Space: A Web Comic!</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script type="text/javascript" src="./main.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Kanit:400,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,700,800,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico.png" />
 </head>
 
 <body>
@@ -20,13 +21,25 @@
             <img src="./images/logo_a.png" alt="Greetings From Space: A Web Comic!">
         </div>
         <div class="nav" id="nav">
-            <a href="#"><div class="nav-btn" id="nav-home">Home</div></a>
-            <a href="#"><div class="nav-btn" id="nav-about">About</div></a>
-            <a href="#"><div class="nav-btn" id="nav-news">News</div></a>
-            <a href="#"><div class="nav-btn" id="nav-stuff">Stuff</div></a>
-            <a href="#"><div class="nav-btn" id="nav-archive">Archive</div></a>
-            <a href="#"><div class="nav-btn" id="nav-contact">Contact</div></a>
-       <!-- <a href="#"><div class="nav-btn" id="nav-links">Links</div></a> -->
+            <a href="#">
+                <div class="nav-btn" id="nav-home">Home</div>
+            </a>
+            <a href="#">
+                <div class="nav-btn" id="nav-about">About</div>
+            </a>
+            <a href="#">
+                <div class="nav-btn" id="nav-news">News</div>
+            </a>
+            <a href="#">
+                <div class="nav-btn" id="nav-stuff">Stuff</div>
+            </a>
+            <a href="#">
+                <div class="nav-btn" id="nav-archive">Archive</div>
+            </a>
+            <a href="#">
+                <div class="nav-btn" id="nav-contact">Contact</div>
+            </a>
+            <!-- <a href="#"><div class="nav-btn" id="nav-links">Links</div></a> -->
         </div>
     </div>
 
@@ -39,15 +52,78 @@
         <div class="comic-img" id="comic-img">
             <a href="#"><img src="images/comics/15.png" alt="Greetings From Space #15: Infinite Loop"></a>
         </div>
-        <div class="comic-nav" id="comic-nav"></div>
+
+        <div class="comic-nav" id="comic-nav">
+
+            <div class="comic-nav-left-btn" id="nav-btn-first">
+                <a href="#">
+                    <img src="images/arrow_left.png">
+                    <h3>First</h3>
+                </a>
+            </div>
+
+            <div class="comic-nav-left-btn" id="nav-btn-prev">
+                <a href="#">
+                    <img src="images/arrow_left.png">
+                    <h3>Prev</h3>
+                </a>
+            </div>
+
+            <div class="comic-nav-right-btn" id="nav-btn-next">
+                <a href="#">
+                    <h3>Next</h3>
+                    <img src="images/arrow_right.png">
+                </a>
+            </div>
+
+            <div class="comic-nav-right-btn" id="nav-btn-latest">
+                <a href="#">
+                    <h3>Latest</h3>
+                    <img src="images/arrow_right.png">
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="comic-nav-2" id="comic-nav-2">
+            <div class="comic-dropdown-container">
+                <div class="comic-nav-dropdown" id="nav-btn-dropdown">
+                    <a href="#">
+                        <div class="comic-nav-dropdown-title" id="nav-drop-15">
+                            <h4>#15 Infinite Loop</h4>
+                        </div>
+                        <img src="images/arrow_down.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="comic-nav-random" id="comic-nav-random">
+            <a href="#">
+                <div class="random-btn" id="random-btn">Random</div>
+            </a>
+        </div>
+
     </div>
 
     <!-- FOOTER -->
 
     <div class="footer" id="footer">
-        <div class="copyright" id="copyright"></div>
-        <div class="social-footer" id="social-footer"></div>
+
+        <div class="copyright" id="copyright">
+            <p>&COPY; Copyright 2011-2019 <a href="#" alt="Andrew Clanahan">Andrew Clanahan</a></p>
+        </div>
+
+        <div class="social-footer" id="social-footer">
+            <a href="http://www.facebook.com/gfscomic" target="_blank"><img src="images/facebook-2-48.png"
+                    alt="Follow Greetings From Sprace on Facebook!"></a>
+            <a href="http://www.twitter.com/gfscomic" target="_blank"><img src="images/twitter-4-48.png"
+                    alt="Follow Greetings From Sprace on Twitter!"></a>
+        </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </body>
 
