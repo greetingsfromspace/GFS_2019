@@ -14,8 +14,22 @@ img {
     max-width: 100%;
 }
 
+p {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+a {
+    color: #F9304D;
+}
+
 a:hover {
     color: white;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* HEADER CONTAINER */
@@ -111,6 +125,7 @@ h2 {
     font-weight: 400;
     text-transform: uppercase; 
     letter-spacing: .075em;
+    line-height: 1.25em;
 }
 
 .bolder {
@@ -235,7 +250,7 @@ h4 {
     color: #2688B4;
     font-weight: 400;
     font-size: .75em;
-    letter-spacing: 0.075em;
+    letter-spacing: 0.05em;
 }
 
 .comic-nav-dropdown-title h4 {
@@ -300,7 +315,7 @@ h4 {
 /* FOOTER */
 
 .footer {
-    padding-top: 6em;
+    padding-top: 3em;
     text-align: center;
 }
 
@@ -325,4 +340,13 @@ h4 {
 
 .social-footer a {
     text-decoration: none;
+}
+
+.abt-img {
+    display: inline-block;
+    float: right;
+    margin: 0em 1em 1em 1em;
+    border-style: solid;
+    border-color: white;
+    border-width: .25em;
 }
