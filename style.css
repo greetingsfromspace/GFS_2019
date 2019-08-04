@@ -1,5 +1,6 @@
 body {
     font-family: 'Kanit', sans-serif;
+    letter-spacing: 0.037em;
     color: white;
     background-image: url("./images/bg.jpg");
     background-color: #16253c;
@@ -13,6 +14,10 @@ img {
     max-width: 100%;
 }
 
+a:hover {
+    color: white;
+}
+
 /* HEADER CONTAINER */
 
 .header {
@@ -23,8 +28,16 @@ img {
 
 .logo {
     min-width: 360px;
+    max-width: 555px;
     position: relative;
     top: -1em;
+    margin: 0 auto;
+}
+
+#logo-fade {
+    min-width: 360px;
+    position: absolute;
+    opacity: 0;
 }
 
 /* NAVIGATION MENU BUTTONS */
@@ -39,12 +52,16 @@ img {
     top: -3.5em;
 }
 
+.nav a {
+    text-decoration: none;
+}
+
 .nav-btn {
     background-color: #F9304D;
     color: white;
     font-size: 1rem;
     font-weight: 700;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
     text-transform: uppercase;
     height: auto;
     width: auto;
@@ -53,7 +70,22 @@ img {
     vertical-align: middle;
     padding: 1% 2%;
     margin: .2em .075em;
+    border-radius: 1.5px;
 }
+
+.nav-btn-a {
+    font-size: 1rem;
+    transform: rotate(-1.11deg);
+    position: relative;
+    top: -.5em;
+}
+
+.nav-btn-click {
+    transform: rotate(1.11deg);
+    position: relative;
+    top: -.25em;
+}
+
 
 /* COMIC BODY CONTAINER */
 
@@ -65,6 +97,14 @@ img {
 }
 
 /* COMIC TITLE */
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: white;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
 
 h2 {
     font-size: 1.2rem;
@@ -93,6 +133,15 @@ h2 {
     line-height: 100%;
     vertical-align: middle;
     border-radius: .125em;
+}
+
+.comic-full {
+    width: 1200px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.6em;
+    border-radius: .25em;
 }
 
 /* COMIC NAV CONTAINER */
@@ -135,6 +184,16 @@ h3 {
     font-weight: 400;
     font-size: .875em;
     letter-spacing: 0.075em;
+}
+
+.nav-text-active {
+    color: #F9304D;
+    font-weight: 800;
+    letter-spacing: .05em;
+}
+
+.nav-arrow-active {
+
 }
 
 /* COMIC NAV * ROW 2 */
@@ -209,9 +268,9 @@ h4 {
 .random-btn {
     background-color: #F9304D;
     color: white;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 700;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
     text-transform: uppercase;
     height: auto;
     max-width: 92px;
@@ -222,6 +281,20 @@ h4 {
     margin: 0 auto;
     position: relative;
     top: 1em;
+    border-radius: 1.5px;
+}
+
+.random-btn-a {
+    font-size: 1rem;
+    transform: rotate(-1.25deg);
+    position: relative;
+    top: 1.25em;
+}
+
+.random-btn-click {
+    transform: rotate(1.25deg);
+    position: relative;
+    top: 1.6em;
 }
 
 /* FOOTER */
@@ -239,6 +312,10 @@ h4 {
 
 .copyright a {
     color: #F9304D;
+}
+
+.copyright a:hover {
+    color: white;
 }
 
 .social-footer img {
