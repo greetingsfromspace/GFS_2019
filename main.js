@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+    /* UFO */
+
+    function ufoTakeoff () {
+        $(".ufo-ani").fadeOut(400, "swing");
+    };
+
+    setTimeout(ufoTakeoff, 6500);
+
     /* LOGO FADE */
 
     $(".logo").mouseenter(function () {

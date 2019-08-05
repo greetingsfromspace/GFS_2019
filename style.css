@@ -40,6 +40,35 @@ a:hover {
 
 /* LOGO */
 
+#ufo {
+    transform: rotate(-22deg);
+}
+
+.ufo-ani {
+    animation-name: ufo;
+    animation-duration: 7000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear; 
+  }
+  @keyframes ufo {
+from {
+    transform:rotate(-10deg);
+    height: 125%;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    z-index: 9999;
+}
+to {
+    transform:rotate(0deg);
+    height: 0%;
+    position: absolute;
+    top: 1.5%;
+    left: 60%;
+    z-index: 9999;
+}
+}
+
 .logo {
     min-width: 360px;
     max-width: 555px;
