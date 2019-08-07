@@ -2,11 +2,16 @@ $(document).ready(function () {
 
     /* UFO */
 
-    function ufoTakeoff () {
-        $(".ufo-ani").fadeOut(400, "swing");
+    function ufoAddClass () {
+        $(".ufo").addClass("ufo-ani")
     };
 
-    setTimeout(ufoTakeoff, 6500);
+    function ufoTakeoff () {
+        $(".ufo-ani").fadeOut(800, "linear");
+    };
+
+    setTimeout(ufoAddClass, 2500);
+    setTimeout(ufoTakeoff, 8700);
 
     /* LOGO FADE */
 
@@ -46,6 +51,39 @@ $(document).ready(function () {
     $(".nav-text").mouseout(function () {
     $(event.currentTarget).toggleClass("nav-text-active")
     });
+
+    $("#nav-arrow-1").mouseenter(function () {
+        $("#first").toggleClass("nav-text-active");
+    });
+
+    $("#nav-arrow-1").mouseout(function () {
+        $("#first").toggleClass("nav-text-active");
+    });
+
+    $("#nav-arrow-2").mouseenter(function () {
+        $("#prev").toggleClass("nav-text-active");
+    });
+
+    $("#nav-arrow-2").mouseout(function () {
+        $("#prev").toggleClass("nav-text-active");
+    });
+
+    $("#nav-arrow-3").mouseenter(function () {
+        $("#next").toggleClass("nav-text-active");
+    });
+
+    $("#nav-arrow-3").mouseout(function () {
+        $("#next").toggleClass("nav-text-active");
+    });
+
+    $("#nav-arrow-4").mouseenter(function () {
+        $("#latest").toggleClass("nav-text-active");
+    });
+
+    $("#nav-arrow-4").mouseout(function () {
+        $("#latest").toggleClass("nav-text-active");
+    });
+
 
     /* RANDOM BUTTON */
 

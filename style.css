@@ -38,10 +38,19 @@ a:hover {
     text-align: center;
 }
 
-/* LOGO */
+/* UFO */
 
 #ufo {
     transform: rotate(-22deg);
+}
+
+.ufo {
+    transform:rotate(-10deg);
+    height: 125%;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    z-index: 9999;
 }
 
 .ufo-ani {
@@ -58,6 +67,7 @@ from {
     top: 25%;
     left: 0%;
     z-index: 9999;
+    opacity: 1;
 }
 to {
     transform:rotate(0deg);
@@ -68,6 +78,8 @@ to {
     z-index: 9999;
 }
 }
+
+/* LOGO */
 
 .logo {
     min-width: 360px;
