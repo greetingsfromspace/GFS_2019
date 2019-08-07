@@ -145,6 +145,8 @@ let counter = comicList.length - 1;
 
 loadComic(newest);
 
+/* COMIC NAVIGATION BUTTONS */
+
     $("#nav-btn-first").click(function () {
         $(".comic-insert").html(firstComic);
         counter = 0;
@@ -171,13 +173,13 @@ loadComic(newest);
         }
     });
 
+/* RANDOM BUTTON */
 
-
-
-
-
-
-
+$("#comic-nav-random").click(function () {
+    r = Math.floor(Math.random() * newest);
+    $(".comic-insert").html(comicList[r]);
+    counter = r;
+});
 
 
 
