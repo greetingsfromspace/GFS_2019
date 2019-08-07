@@ -135,13 +135,52 @@ $(document).ready(function () {
                     ];
 
     function loadComic (n) {
-        $(".comic-body").prepend(comicList[n]);
+        $(".comic-insert").html(comicList[n]);
     };
 
 const firstComic = comicList[0];
-const latestComic = comicList.length - 1;
+const newest = comicList.length - 1;
+const latestComic = comicList[newest];
+let counter = comicList.length - 1;
 
-loadComic(latestComic);
+loadComic(newest);
+
+    $("#nav-btn-first").click(function () {
+        $(".comic-insert").html(firstComic);
+        counter = 0;
+    });
+
+    $("#nav-btn-latest").click(function () {
+        $(".comic-insert").html(latestComic);
+        counter = newest;
+    });
+
+    $("#nav-btn-prev").click(function () {
+        $(".comic-insert").html(comicList[counter - 1]);
+        counter = counter - 1;
+        if (counter < 0) {
+            counter = 0;
+        }
+    });
+
+    $("#nav-btn-next").click(function () {
+        $(".comic-insert").html(comicList[counter + 1]);
+        counter = counter + 1;
+        if (counter > newest) {
+            counter = newest;
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+
 
 
 });
