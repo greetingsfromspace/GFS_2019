@@ -31,6 +31,9 @@ a:hover {
 .italic {
     font-style: italic;
 }
+.hidden {
+    display: none;
+}
 
 /* HEADER CONTAINER */
 
@@ -267,22 +270,15 @@ h3 {
     display: block;
     margin: 0 auto;
     float: right;
+    position: relative;
+    top: -2em;
+    left: -.5em;
 }
 
 .comic-nav-dropdown {
+    width: 225px;
     height: 25px;
     margin: 0 auto;
-}
-
-.comic-nav-dropdown-title {
-    background-color: white;
-    width: 200px;
-    padding: 0 0 0 .5em;
-    float: left;
-    border-style: solid;
-    border-color: rgb(25, 95, 125);
-    border-width: thin;
-    overflow: hidden;
 }
 
 h4 {
@@ -290,23 +286,40 @@ h4 {
     text-transform: uppercase;
     color: #2688B4;
     font-weight: 400;
-    font-size: .75em;
+    font-size: .7em;
     letter-spacing: 0.05em;
-}
-
-.comic-nav-dropdown-title h4 {
     position: relative;
-    top: -0.125em;
+    top: -1px;
 }
 
 .comic-nav-dropdown img {
     display: inline-block;
-    float: right;
-    max-width: 24px;
-    border-style: solid;
-    border-color: rgb(120, 15, 40);
-    border-width: thin;
+    max-width: 25px;
     padding: 0 0 0 0;
+    position: relative;
+    top: 31px;
+    right: -209px;
+}
+
+.dropdown-expanded {
+    width: 225px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-x: hidden;
+    display: inline-block;
+    z-index: 9999;
+}
+
+.drop-choice {
+    height: 25px;
+    background-color: white;
+    width: 200px;
+    padding: 0 0 0 .5em;
+    overflow: hidden;
+}
+
+.powder {
+    background-color: #f0f7fb;
 }
 
 /* RANDOM BUTTON */
