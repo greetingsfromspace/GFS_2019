@@ -31,8 +31,14 @@ a:hover {
 .italic {
     font-style: italic;
 }
+
 .hidden {
     display: none;
+}
+
+.date {
+    opacity: 0.5;
+    font-weight: 300;
 }
 
 /* HEADER CONTAINER */
@@ -316,10 +322,15 @@ h4 {
     width: 200px;
     padding: 0 0 0 .5em;
     overflow: hidden;
+    display: none;
 }
 
 .powder {
     background-color: #f0f7fb;
+}
+
+.visible {
+    display: visible;
 }
 
 /* RANDOM BUTTON */
@@ -403,4 +414,38 @@ h4 {
     border-style: solid;
     border-color: white;
     border-width: .25em;
+}
+
+/* ARCHIVE */
+
+#return {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: -1em;
+    margin-bottom: -1em;
+}
+
+.date {
+    display: block;
+}
+
+.archive-list {
+    max-width: 360px;
+    position: relative;
+    left: -1em;
+}
+
+.archive-list a {
+    font-weight: 800;
+    font-size: 1.125em;
+}
+
+.achive-list-item {
+    line-height: 0%;
+    padding-bottom: 1em;
+}
+
+.archive-date {
+
 }

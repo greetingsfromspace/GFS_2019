@@ -181,8 +181,39 @@ $("#comic-nav-random").click(function () {
     counter = r;
 });
 
+/* DROPDWN */
 
+const dropdownOptions = ["<div class=\"drop-choice\" id=\"drop-00\"><h4>#1 Giant Coat Sale</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-01\"><h4>#2 Leo The Lion</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-02\"><h4>#3 Citation Needed</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-03\"><h4>#4 Personal Finance</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-04\"><h4>#5 Post Credits</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-05\"><h4>#6 My Only Weakness</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-06\"><h4>#7 Valentine's Day Massacre</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-07\"><h4>#8 I Am Watson</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-08\"><h4>#9 Express Lane</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-09\"><h4>#10 Business Plan</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-10\"><h4>#11 Point And Shoot</h4></div>",
+"<div class=\"drop-choice powder\" id=\"drop-11\"><h4>#12 Tsunami Warning</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-12\"><h4>#13 Anger Management</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-13\"><h4>#14 Danny Glover</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-14\"><h4>#15 Infinite Loop</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-15\"><h4>#16 Grow I Guess</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-16\"><h4>#17 Urban Myth</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-17\"><h4>#18 Adventures of Joe Pesci</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-18\"><h4>#19 Deboarding</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-19\"><h4>#20 Animal Farm</h4></div>", 
+"<div class=\"drop-choice\" id=\"drop-20\"><h4>#21 Ancient Artisan</h4></div>", 
+"<div class=\"drop-choice powder\" id=\"drop-21\"><h4>#22 Teenagers With Attitude</h4></div>"
+]
 
+const currentDrop = dropdownOptions[counter - 1];
 
+function loadDropdown () {
+    $(".dropdown-expanded").html(currentDrop);
+    $(this).addClass("visible");
+};
+
+loadDropdown();
 
 });
