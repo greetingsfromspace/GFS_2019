@@ -136,6 +136,7 @@ $(document).ready(function () {
 
     function loadComic (n) {
         $(".comic-insert").html(comicList[n]);
+        $(`select>option:eq(${counter})`).prop('selected', true);
     };
 
 const firstComic = comicList[0];
@@ -150,11 +151,13 @@ loadComic(newest);
     $("#nav-btn-first").click(function () {
         $(".comic-insert").html(firstComic);
         counter = 0;
+        $(`select>option:eq(${counter})`).prop('selected', true);
     });
 
     $("#nav-btn-latest").click(function () {
         $(".comic-insert").html(latestComic);
         counter = newest;
+        $(`select>option:eq(${counter})`).prop('selected', true);
     });
 
     $("#nav-btn-prev").click(function () {
@@ -163,6 +166,7 @@ loadComic(newest);
         if (counter < 0) {
             counter = 0;
         }
+        $(`select>option:eq(${counter})`).prop('selected', true);
     });
 
     $("#nav-btn-next").click(function () {
@@ -171,6 +175,7 @@ loadComic(newest);
         if (counter > newest) {
             counter = newest;
         }
+        $(`select>option:eq(${counter})`).prop('selected', true);
     });
 
 /* RANDOM BUTTON */
@@ -179,41 +184,119 @@ $("#comic-nav-random").click(function () {
     r = Math.floor(Math.random() * newest);
     $(".comic-insert").html(comicList[r]);
     counter = r;
+    $(`select>option:eq(${counter})`).prop('selected', true);
 });
 
-/* DROPDWN */
+/* DROPDOWN MENU */
 
-const dropdownOptions = ["<div class=\"drop-choice\" id=\"drop-00\"><h4>#1 Giant Coat Sale</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-01\"><h4>#2 Leo The Lion</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-02\"><h4>#3 Citation Needed</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-03\"><h4>#4 Personal Finance</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-04\"><h4>#5 Post Credits</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-05\"><h4>#6 My Only Weakness</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-06\"><h4>#7 Valentine's Day Massacre</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-07\"><h4>#8 I Am Watson</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-08\"><h4>#9 Express Lane</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-09\"><h4>#10 Business Plan</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-10\"><h4>#11 Point And Shoot</h4></div>",
-"<div class=\"drop-choice powder\" id=\"drop-11\"><h4>#12 Tsunami Warning</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-12\"><h4>#13 Anger Management</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-13\"><h4>#14 Danny Glover</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-14\"><h4>#15 Infinite Loop</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-15\"><h4>#16 Grow I Guess</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-16\"><h4>#17 Urban Myth</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-17\"><h4>#18 Adventures of Joe Pesci</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-18\"><h4>#19 Deboarding</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-19\"><h4>#20 Animal Farm</h4></div>", 
-"<div class=\"drop-choice\" id=\"drop-20\"><h4>#21 Ancient Artisan</h4></div>", 
-"<div class=\"drop-choice powder\" id=\"drop-21\"><h4>#22 Teenagers With Attitude</h4></div>"
-]
+$("#drop-1").click(function () {
+    $(".comic-insert").html(comicList[0]);
+    counter = 0;
+})
 
-const currentDrop = dropdownOptions[counter - 1];
+$("#drop-2").click(function () {
+    $(".comic-insert").html(comicList[1]);
+    counter = 1;
+})
 
-function loadDropdown () {
-    $(".dropdown-expanded").html(currentDrop);
-    $(this).addClass("visible");
-};
+$("#drop-3").click(function () {
+    $(".comic-insert").html(comicList[2]);
+    counter = 2;
+})
 
-loadDropdown();
+$("#drop-4").click(function () {
+    $(".comic-insert").html(comicList[3]);
+    counter = 3;
+})
+
+$("#drop-5").click(function () {
+    $(".comic-insert").html(comicList[4]);
+    counter = 4;
+})
+
+$("#drop-6").click(function () {
+    $(".comic-insert").html(comicList[5]);
+    counter = 5;
+})
+
+$("#drop-7").click(function () {
+    $(".comic-insert").html(comicList[6]);
+    counter = 6;
+})
+
+$("#drop-8").click(function () {
+    $(".comic-insert").html(comicList[7]);
+    counter = 7;
+})
+
+$("#drop-9").click(function () {
+    $(".comic-insert").html(comicList[8]);
+    counter = 8;
+})
+
+$("#drop-10").click(function () {
+    $(".comic-insert").html(comicList[9]);
+    counter = 9;
+})
+
+$("#drop-11").click(function () {
+    $(".comic-insert").html(comicList[10]);
+    counter = 10;
+})
+
+$("#drop-12").click(function () {
+    $(".comic-insert").html(comicList[11]);
+    counter = 11;
+})
+
+$("#drop-13").click(function () {
+    $(".comic-insert").html(comicList[12]);
+    counter = 12;
+})
+
+$("#drop-14").click(function () {
+    $(".comic-insert").html(comicList[13]);
+    counter = 13;
+})
+
+$("#drop-15").click(function () {
+    $(".comic-insert").html(comicList[14]);
+    counter = 14;
+})
+
+$("#drop-16").click(function () {
+    $(".comic-insert").html(comicList[15]);
+    counter = 15;
+})
+
+$("#drop-17").click(function () {
+    $(".comic-insert").html(comicList[16]);
+    counter = 16;
+})
+
+$("#drop-18").click(function () {
+    $(".comic-insert").html(comicList[17]);
+    counter = 17;
+})
+
+$("#drop-19").click(function () {
+    $(".comic-insert").html(comicList[18]);
+    counter = 18;
+})
+
+$("#drop-20").click(function () {
+    $(".comic-insert").html(comicList[19]);
+    counter = 19;
+})
+
+$("#drop-21").click(function () {
+    $(".comic-insert").html(comicList[20]);
+    counter = 20;
+})
+
+$("#drop-22").click(function () {
+    $(".comic-insert").html(comicList[21]);
+    counter = 21;
+})
 
 });
