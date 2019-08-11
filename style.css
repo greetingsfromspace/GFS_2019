@@ -407,7 +407,7 @@ h4 {
 }
 
 .archive-list a {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.125em;
     line-height: 1em;
 }
@@ -430,4 +430,26 @@ h4 {
 
 .go-back-div {
     display: inline-block;
+}
+
+.blue-box {
+    position: relative;
+    top: -1.4em;
+    background-color: #2688B4;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.blue-box a {
+    color: #16253c;
+}
+
+.blue-box a:hover {
+    color: white;
+}
+
+.speech-bubble {
+    position: relative;
+    left: 3em;
 }
