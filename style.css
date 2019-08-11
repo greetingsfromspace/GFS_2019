@@ -469,3 +469,19 @@ h4 {
 .red {
     color: #F9304D;
 }
+
+.gfs-blue {
+    color: #2688B4;
+}
+
+.grey {
+    color: #999999;
+}
+
+/* NEWS */
+
+.news-date {
+    opacity: 0.5;
+    position: relative;
+    top: .875em;
+}
