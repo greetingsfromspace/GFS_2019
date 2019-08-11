@@ -131,6 +131,12 @@ $(document).ready(function () {
                         </div>\
                         <div class=\"comic-img\" id=\"comic-img\">\
                         <a href=\"22-teenagers-with-attitude.html\"><img src=\"images/comics/22.png\" alt=\"Greetings From Space #22: Teenagers With Attitude\"></a>\
+                        </div>",
+                        "<div class=\"comic-title\" id=\"comic-title\">\
+                        <h2>#23 <span class=\"bolder\">Looking Out For Number One</span></h2>\
+                        </div>\
+                        <div class=\"comic-img\" id=\"comic-img\">\
+                        <a href=\"23-looking-out-for-number-one.html\"><img src=\"images/comics/23.png\" alt=\"Greetings From Space #23: Looking Out For Number One\"></a>\
                         </div>"
                     ];
 
@@ -297,6 +303,11 @@ $("#drop-21").click(function () {
 $("#drop-22").click(function () {
     $(".comic-insert").html(comicList[21]);
     counter = 21;
+})
+
+$("#drop-23").click(function () {
+    $(".comic-insert").html(comicList[22]);
+    counter = 22;
 })
 
 });

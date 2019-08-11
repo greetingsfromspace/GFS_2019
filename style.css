@@ -280,7 +280,7 @@ h3 {
 }
 
 .dropdown {
-    width: 225px;
+    width: 250px;
     height: 25px;
     margin: 0 auto;
     padding-left: .25em;
@@ -415,6 +415,6 @@ h4 {
     padding-bottom: 1em;
 }
 
-.archive-date {
-
+.comic-number {
+    display: inline-block;
 }
