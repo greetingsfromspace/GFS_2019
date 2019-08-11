@@ -121,7 +121,15 @@ $(document).ready(function () {
         $("#tw-button").attr("src", "images/twitter-4-48.png");
     });
 
+/* ARCHIVE */
 
+$(".return-arrow").mouseenter(function () {
+    $("#return").addClass("return-active");
+});
+
+$(".return-arrow").mouseout(function () {
+    $("#return").removeClass("return-active");
+});
 
 
 

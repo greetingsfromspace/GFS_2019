@@ -257,10 +257,6 @@ h3 {
     letter-spacing: .05em;
 }
 
-.nav-arrow-active {
-
-}
-
 /* COMIC NAV * ROW 2 */
 
 .comic-nav-2 {
@@ -395,8 +391,13 @@ h4 {
     margin-bottom: -1em;
 }
 
+#return a:hover {
+    color: #F9304D;
+}
+
 .date {
     display: block;
+    padding-bottom: .25em;
 }
 
 .archive-list {
@@ -408,6 +409,7 @@ h4 {
 .archive-list a {
     font-weight: 800;
     font-size: 1.125em;
+    line-height: 1em;
 }
 
 .achive-list-item {
@@ -415,6 +417,17 @@ h4 {
     padding-bottom: 1em;
 }
 
-.comic-number {
+.return-arrow {
+    display: inline-block;
+    width: 16px;
+    position: relative;
+    top: -.85em;
+}
+
+.return-active {
+    color: white;
+}
+
+.go-back-div {
     display: inline-block;
 }
