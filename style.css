@@ -187,8 +187,8 @@ h2 {
 }
 
 .bold {
-    font-weight: 700;
-    letter-spacing: 0.0375em;
+    font-weight: 500;
+    letter-spacing: 0.0125em;
 }
 
 
@@ -455,17 +455,6 @@ h4 {
     left: 3em;
 }
 
-.white-box-abt {
-    position: relative;
-    background-color: white;
-    color: #16253c;
-    border-radius: 5px;
-    padding: 2em 2em;
-    margin-bottom: 2em;
-    letter-spacing: 0;
-    opacity: 0.85;
-}
-
 .red {
     color: #F9304D;
 }
@@ -490,4 +479,42 @@ h4 {
 
 .padding-override {
     padding: 1.5vmax;
+}
+
+/* ABOUT */
+
+.abt-img-container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2em 2em;
+    opacity: 0.85;
+    max-width: 396px;
+    height: 336px;
+}
+
+.white-box-abt {
+    background-color: white;
+    color: #16253c;
+    border-radius: 5px;
+    padding: 2em 2em;
+    letter-spacing: 0;
+    opacity: 0.85;
+    max-width: 766px;
+    min-height: 336px;
+    margin-bottom: .5em;
+}
+
+.abt-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.abt-img-caption {
+    position: relative;
+    top: 1em;
+    color: #16253c;
+    font-size: 0.75em;
+    text-align: center;
+    max-width: 300px;
 }

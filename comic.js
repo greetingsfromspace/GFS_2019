@@ -170,6 +170,7 @@ loadComic(newest);
         $(".comic-insert").html(comicList[counter - 1]);
         counter = counter - 1;
         if (counter < 0) {
+            alert("Turn back! Go the other way!");
             counter = 0;
         }
         $(`select>option:eq(${counter})`).prop('selected', true);
@@ -179,6 +180,7 @@ loadComic(newest);
         $(".comic-insert").html(comicList[counter + 1]);
         counter = counter + 1;
         if (counter > newest) {
+            alert("Unless you have a time machine, you've reached the end.");
             counter = newest;
         }
         $(`select>option:eq(${counter})`).prop('selected', true);
