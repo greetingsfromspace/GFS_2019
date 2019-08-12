@@ -39,7 +39,39 @@
 
         <div class="white-box-abt">
 
-            Forms go here.
+            <div class="form-container">
+
+            <span class="bold">Use the form below to get in touch!</span>
+
+            <form id="form" class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwoNFo5tc1bWAvxG4MtFZF2cbt0CPgr6X4e-xrd/exec">
+                <label for="form-name" id="name-label">Name:</label><input id="form-name" type="text" name="name" required> <br>
+                <label for="form-email" id="email-label">Email:</label><input id="form-email" type="text" name="email" required> <br>
+                
+                <label for="form-subject" id="choose-label">Choose a Subject:</label> <br>
+            
+                <select id="form-subject" name="subject" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="general">General</option>
+                    <option value="business">Business Inquiries</option>
+                    <option value="suggestions">Suggestions</option>
+                    <option value="bug-report">Bug Report/Site Issues</option>
+                    <option value="other">Other</option>
+                </select> <br>
+                
+                <label for="form-textarea" id="message-label">Message:</label> <br>
+                <textarea id="form-textarea" name="message" rows="5" cols="33" required></textarea> <br>
+
+                <button class="buttons" type="submit">Submit</button>
+                <button class="buttons" type="reset">Reset</button>
+
+                <div style="display:none" class="thankyou_message">
+                        <div class="blue-box-2">Your message has been sent! We'll get back to you as soon as possible!</div>
+                        </h2>
+                       </div>
+            
+            </form>
+
+        </div>
 
         </div>
 
@@ -62,6 +94,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
     <script src="main.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 
 </body>
 

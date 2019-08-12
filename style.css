@@ -30,7 +30,7 @@ a {
 
 
 a:hover {
-    color: #16253c;
+    color: white;
 }
 
 .italic {
@@ -196,7 +196,7 @@ h2 {
 /* COMIC IMAGE */
 
 .comic-img {
-    background-color: white;
+    background-color: #dcdfe2;
     max-width: 1200px;
     position: relative;
     top: -0.75em;
@@ -215,7 +215,7 @@ h2 {
     width: 1200px;
     margin: 0 auto;
     border-style: solid;
-    border-color: white;
+    border-color: #dcdfe2;
     border-width: 0.6em;
     border-radius: .25em;
 }
@@ -491,6 +491,10 @@ h4 {
     margin-bottom: .5em;
 }
 
+.white-box-news a:hover {
+    color: #16253c;
+}
+
 .news-img-container {
     background-color: #dcdfe2;
     border-radius: 5px;
@@ -587,4 +591,45 @@ border-color: #2688B4;
     font-size: 0.75em;
     text-align: center;
     max-width: 300px;
+}
+
+/* CONTACT */
+
+.form-container {
+    width: auto;
+}
+
+#form {
+    padding: 1em 0;
+}
+
+#form-name {
+    margin: 0 0 .125em .5em;
+    width: 200px;
+}
+
+#form-email {
+    margin: 0 0 1em .5em;
+    width: 200px;
+    position: relative;
+    left: 2px;
+}
+
+#form-subject {
+    margin: 0 0 1em 0;
+    width: 257px;
+}
+
+#form-textarea {
+    margin: 0 0 1em 0;
+    width: 100%;
+}
+
+.blue-box-2 {
+    background-color: #2688B4;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    width: auto;
+    margin: 1em 0 0 0;
 }
