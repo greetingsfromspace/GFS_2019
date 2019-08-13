@@ -131,13 +131,15 @@ $(".return-arrow").mouseout(function () {
     $("#return").removeClass("return-active");
 });
 
+$(document).on("mouseenter",".archive-list li a", function () {
+    $(".archive-list li a").removeClass("archive-item-active");
+    $(this).parent().addClass("archive-item-active");
+});
 
-
-
-
-
-
-
+$(document).on("mouseout",".archive-list li a", function () {
+    $(".archive-list li a").removeClass("archive-item-active");
+    $(this).parent().removeClass("archive-item-active");
+});
 
 
 
