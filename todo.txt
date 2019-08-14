@@ -6,11 +6,12 @@ Things to do before launch:
 4. Center logo/nav for mobile (media query may be required)
 5. Tweak UFO animation so it doesn't stretch the page
 6. Make logo clickable, direct to index
-7. Add more content to "Stuff" section
+
 8. Fix textarea padding for mobile on Contact page
 9. Tweak social media panel on Contact page
-10. Add alerts to comic navigation when user can go no further
-11. Review all copy
+10. Review all copy
+11. Add mouse-over on about image
+12. Fix 'Stuff' padding for mobile (MQ)
 
 
 In the future...
@@ -18,3 +19,4 @@ In the future...
 1. Optimize code/better organize CSS
 2. Develop system for "quick posting"
 3. Integrate Spotify playlist
+4. "Extras" button beside random on index (for rough sketches etc)

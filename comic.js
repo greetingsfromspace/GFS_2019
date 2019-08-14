@@ -156,12 +156,18 @@ loadComic(newest);
 
     $("#nav-btn-first").click(function () {
         $(".comic-insert").html(firstComic);
+        if (counter === 0) {
+            alert("Stop pressing that!");
+        }
         counter = 0;
         $(`select>option:eq(${counter})`).prop('selected', true);
     });
 
     $("#nav-btn-latest").click(function () {
         $(".comic-insert").html(latestComic);
+        if (counter === newest) {
+            alert("You've reached the end. Check back soon for more comics!");
+        }
         counter = newest;
         $(`select>option:eq(${counter})`).prop('selected', true);
     });
@@ -170,7 +176,7 @@ loadComic(newest);
         $(".comic-insert").html(comicList[counter - 1]);
         counter = counter - 1;
         if (counter < 0) {
-            alert("Turn back! Go the other way!");
+            alert("Going back any further will break the space-time continuum.");
             counter = 0;
         }
         $(`select>option:eq(${counter})`).prop('selected', true);
@@ -180,7 +186,7 @@ loadComic(newest);
         $(".comic-insert").html(comicList[counter + 1]);
         counter = counter + 1;
         if (counter > newest) {
-            alert("Unless you have a time machine, you've reached the end.");
+            alert("Unless you have a time machine, you've reached the end!");
             counter = newest;
         }
         $(`select>option:eq(${counter})`).prop('selected', true);
