@@ -1,20 +1,20 @@
 Things to do before launch:
 
-1. Fix archive for mobile (media query may be required)
-2. Fix nav button jitter (caused by mouse pointer going in and out)
-3. Load header and footer via JavaScript
-4. Center logo/nav for mobile (media query may be required)
-5. Tweak UFO animation so it doesn't stretch the page
-6. Make logo clickable, direct to index
+1. Media Queries
+    a. Fix Archive for mobile
+    b. Fix Contact Page textarea padding for mobile
+    c. Fix Stuff page padding for mobile
+    d. Center logo/navigation for mobile
 
-8. Fix textarea padding for mobile on Contact page
-9. Tweak social media panel on Contact page
-10. Review all copy
-11. Add mouse-over on about image
-12. Fix 'Stuff' padding for mobile (MQ)
+2. Make logo clickable, direct to index
+3. Fix nav button jitter (caused by mouse pointer going in and out)
+4. Load header and footer via JavaScript
+5. Tweak UFO animation so it doesn't stretch the page vertically
+6. Tweak social media panel on Contact page
+7. Add mouse-over on About page image
+8. Review all copy
 
-
-In the future...
+In the future:
 
 1. Optimize code/better organize CSS
 2. Develop system for "quick posting"
