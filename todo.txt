@@ -12,7 +12,7 @@ Things to do before launch:
 5.  Tweak UFO animation so it doesn't stretch the page vertically [✔]
 6.  Tweak social media panel on Contact page [✔]
 7.  Add mouse-over on About page image [✔]
-8.  Review all copy
+8.  Review all copy [✔]
      a. Change "Back" to "Back to Archive" on Archive sub-pages. [✔]
 9.  Fix comic navigation buttons [✔]
 10. Fix padding on Contact social panel (mobile) [✔]
@@ -25,4 +25,4 @@ Post-launch:
 3.  Integrate Spotify playlist
 4.  "Extras" button beside random on index (for rough sketches etc)
 5.  Media queries for news/content layouts
-6.  Make footer placement more consistent between pages
+6.  Make footer placement more consistent between pages (web and mobile)

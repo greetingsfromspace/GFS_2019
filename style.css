@@ -492,7 +492,7 @@ h4 {
 }
 
 .blue-box a {
-    color: #16253c;
+    color: #bcbcbc;
 }
 
 .blue-box a:hover {
@@ -536,7 +536,7 @@ h4 {
 }
 
 .white-box-news a:hover {
-    color: #16253c;
+    color: #2688B4;
 }
 
 .news-img-container {
@@ -645,12 +645,12 @@ border-color: #2688B4;
     flex-flow: row wrap-reverse;
 }
 
-.cont-flex a {
+.cont-flex a:hover {
     text-decoration: none;
-    color: #16253c;
+    color: #2688B4;
 }
 
-.cont-flex a:hover {
+.cont-flex a {
     color: #F9304D;
 }
 
@@ -722,6 +722,16 @@ input:focus, select:focus, textarea:focus, button:focus {
     top: 2em;
 }
 
+.stuff-container-left {
+    background-color: #dcdfe2;
+    color: #16253c;
+    border-radius: 5px;
+    padding: 2em 2em 1em 2em;
+    width: 302px;
+    margin: 0 0 .5em 0;
+}
+
+
 .small-container-left {
     background-color: #dcdfe2;
     color: #16253c;
@@ -729,6 +739,15 @@ input:focus, select:focus, textarea:focus, button:focus {
     padding: 2em 2em 1em 2em;
     width: 302px;
     margin: 0 0 .5em 0;
+}
+
+.small-container-left a {
+    color: #16253c;
+    text-decoration: none;
+}
+
+.small-container-left a:hover {
+    color: #F9304D;
 }
 
 .buttons {
