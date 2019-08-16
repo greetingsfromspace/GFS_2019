@@ -6,13 +6,15 @@ Things to do before launch:
     c. Fix Stuff page padding for mobile [✔]
     d. Center logo/navigation for mobile [✔]
 
-2. Make logo clickable, direct to index
-3. Fix nav button jitter (caused by mouse pointer going in and out)
-4. Load header and footer via JavaScript
+2. Make logo clickable, direct to index [✔]
+    b. Make logo in on load [✔]
+3. Fix nav button jitter [✔]
+4. Load header and footer via JavaScript [✔]
 5. Tweak UFO animation so it doesn't stretch the page vertically
 6. Tweak social media panel on Contact page
 7. Add mouse-over on About page image
 8. Review all copy
+    a. Change "Back" to "Back to Archive" on Archive sub-pages.
 
 In the future:
 

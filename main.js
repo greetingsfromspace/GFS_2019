@@ -13,7 +13,36 @@ $(document).ready(function () {
     setTimeout(ufoAddClass, 2500);
     setTimeout(ufoTakeoff, 8700);
 
-    /* LOGO FADE */
+    /* LOGO */
+
+    const header = `<a href="./index.html" alt="Return Home">
+                    <div class="logo" id="logo">
+                    <img src="./images/logo_b.png" id="logo-fade" alt="Greetings From Space">
+                    <img src="./images/logo_a.png" id="logo-img" alt="Greetings From Space">
+                    </div>
+                    </a>
+
+                    <div class="nav" id="nav">
+                    <a href="./index.html"><div class="nav-btn" id="nav-home">Home</div></a>
+                    <a href="./about.html"><div class="nav-btn" id="nav-about">About</div></a>
+                    <a href="./news.html"><div class="nav-btn" id="nav-news">News</div></a>
+                    <a href="./stuff.html"><div class="nav-btn" id="nav-stuff">Stuff</div></a>                
+                    <a href="./archive.html"><div class="nav-btn" id="nav-archive">Archive</div></a>
+                    <a href="./contact.html"><div class="nav-btn" id="nav-contact">Contact</div></a>
+                    </div>`
+
+    function loadHeader (n) {
+        $(".header").append(header);
+        };
+
+    loadHeader();
+
+    function logoFadein () {
+        $("#logo-fade").animate( { opacity: 1 }, 0);
+        $("#logo-fade").animate( {opacity: 0 }, 1200)
+    };
+
+    logoFadein();
 
     $(".logo").mouseenter(function () {
         $("#logo-fade").animate({ opacity: 1 }, 400);
@@ -24,14 +53,31 @@ $(document).ready(function () {
         $("#logo-fade").animate({ opacity: 0 }, 400);
     });
 
+    /* FOOTER */
+
+    const footer = `<div class="copyright" id="copyright">
+                    <p>&COPY; Copyright 2011-2019 <a href="mailto: gfscomic@gmail.com" alt="Andrew Clanahan">Andrew Clanahan</a></p>
+                    </div>
+
+                    <div class="social-footer" id="social-footer">
+                    <a href="http://www.facebook.com/gfscomic" target="_blank"><img src="images/facebook-2-48.png" alt="Follow Greetings From Sprace on Facebook!" id="fb-button"></a>
+                    <a href="http://www.twitter.com/gfscomic" target="_blank"><img src="images/twitter-4-48.png" alt="Follow Greetings From Sprace on Twitter!" id="tw-button"></a>
+                    </div>`
+    
+function loadFooter (n) {
+    $(".footer").append(footer);
+    };
+                
+    loadFooter();
+
     /* MENU NAVIGATION */
 
     $(".nav-btn").mouseenter(function () {
-        $(event.currentTarget).toggleClass("nav-btn-a");
+        $(event.currentTarget).removeClass("nav-btn-a").addClass("nav-btn-a");
     });
 
     $(".nav-btn").mouseout(function () {
-        $(event.currentTarget).toggleClass("nav-btn-a");
+        $(event.currentTarget).removeClass("nav-btn-a");
     });
 
     $(".nav-btn").mousedown(function () {

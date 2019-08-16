@@ -253,14 +253,12 @@ h2 {
 /* COMIC NAV BUTTONS */
 
 .comic-nav-left-btn img {
-    display: inline-block;
     float: left;
     max-width: 17px;
     padding: 0 0.5em 0 0;
 }
 
 .comic-nav-right-btn img {
-    display: inline-block;
     float: right;
     max-width: 17px;
     padding: 0 0 0 0.5em;
@@ -743,11 +741,11 @@ input:focus, select:focus, textarea:focus, button:focus {
 }
 
 .small-container-left a {
-    color: #F9304D; !important
+    color: #F9304D !important;
 }
 
 .small-container-left a:hover {
-    color: #16253c; !important
+    color: #16253c !important;
 }
 
 .buttons {
@@ -869,5 +867,6 @@ input:focus, select:focus, textarea:focus, button:focus {
       }
       .achive-list-item {
         width: 39.125%;
+    }
     }
     }
