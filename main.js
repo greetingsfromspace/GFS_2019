@@ -91,43 +91,48 @@ function loadFooter (n) {
     /* COMIC NAVIGATION */
 
     $(".nav-text").mouseenter(function () {
-    $(event.currentTarget).toggleClass("nav-text-active");
+    $(event.currentTarget).removeClass("red");
+    $(event.currentTarget).addClass("red");
     });
 
     $(".nav-text").mouseout(function () {
-    $(event.currentTarget).toggleClass("nav-text-active")
+    $(event.currentTarget).removeClass("red");
     });
 
     $("#nav-arrow-1").mouseenter(function () {
-        $("#first").toggleClass("nav-text-active");
+        $("#first").removeClass("red");
+        $("#first").addClass("red");
     });
 
     $("#nav-arrow-1").mouseout(function () {
-        $("#first").toggleClass("nav-text-active");
+        $("#first").removeClass("red");
     });
 
     $("#nav-arrow-2").mouseenter(function () {
-        $("#prev").toggleClass("nav-text-active");
+        $("#prev").removeClass("red");
+        $("#prev").addClass("red");
     });
 
     $("#nav-arrow-2").mouseout(function () {
-        $("#prev").toggleClass("nav-text-active");
+        $("#prev").removeClass("red");
     });
 
     $("#nav-arrow-3").mouseenter(function () {
-        $("#next").toggleClass("nav-text-active");
+        $("#next").removeClass("red");
+        $("#next").addClass("red");
     });
 
     $("#nav-arrow-3").mouseout(function () {
-        $("#next").toggleClass("nav-text-active");
+        $("#next").removeClass("red");
     });
 
     $("#nav-arrow-4").mouseenter(function () {
-        $("#latest").toggleClass("nav-text-active");
+        $("#latest").removeClass("red");
+        $("#latest").addClass("red");
     });
 
     $("#nav-arrow-4").mouseout(function () {
-        $("#latest").toggleClass("nav-text-active");
+        $("#latest").removeClass("red");
     });
 
 

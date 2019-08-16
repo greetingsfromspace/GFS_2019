@@ -1,26 +1,28 @@
 Things to do before launch:
 
-1. Media Queries [✔]
-    a. Fix Archive for mobile [✔]
-    b. Fix Contact Page textarea padding for mobile [✔]
-    c. Fix Stuff page padding for mobile [✔]
-    d. Center logo/navigation for mobile [✔]
-2. Make logo clickable, direct to index [✔]
-    b. Make logo in on load [✔]
-3. Fix nav button jitter [✔]
-4. Load header and footer via JavaScript [✔]
-5. Tweak UFO animation so it doesn't stretch the page vertically [✔]
-6. Tweak social media panel on Contact page
-7. Add mouse-over on About page image [✔]
-8. Review all copy
-    a. Change "Back" to "Back to Archive" on Archive sub-pages. [✔]
-9. Fix comic navigation buttons on mobile. 
+1.  Media Queries [✔]
+     a. Fix Archive for mobile [✔]
+     b. Fix Contact Page textarea padding for mobile [✔]
+     c. Fix Stuff page padding for mobile [✔]
+     d. Center logo/navigation for mobile [✔]
+2.  Make logo clickable, direct to index [✔]
+     b. Make logo in on load [✔]
+3.  Fix nav button jitter [✔]
+4.  Load header and footer via JavaScript [✔]
+5.  Tweak UFO animation so it doesn't stretch the page vertically [✔]
+6.  Tweak social media panel on Contact page [✔]
+7.  Add mouse-over on About page image [✔]
+8.  Review all copy
+     a. Change "Back" to "Back to Archive" on Archive sub-pages. [✔]
+9.  Fix comic navigation buttons [✔]
+10. Fix padding on Contact social panel (mobile) [✔]
 
 
 Post-launch:
 
-1. Optimize code/better organize CSS
-2. Develop system for "quick posting"
-3. Integrate Spotify playlist
-4. "Extras" button beside random on index (for rough sketches etc)
-5. Media queries for news/content layouts
+1.  Optimize code/better organize CSS
+2.  Develop system for "quick posting"
+3.  Integrate Spotify playlist
+4.  "Extras" button beside random on index (for rough sketches etc)
+5.  Media queries for news/content layouts
+6.  Make footer placement more consistent between pages

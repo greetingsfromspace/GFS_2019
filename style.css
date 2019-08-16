@@ -264,15 +264,9 @@ h2 {
 h3 {
     display: inline;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
     font-size: .875em;
     letter-spacing: 0.075em;
-}
-
-.nav-text-active {
-    color: #F9304D;
-    font-weight: 700;
-    letter-spacing: .05em;
 }
 
 /* COMIC NAV * ROW 2 */
@@ -760,6 +754,10 @@ input:focus, select:focus, textarea:focus, button:focus {
 hr {
     margin: 0 0 0.6em 0;
     opacity: 0.25;
+}
+
+.marg-bot-fix {
+    margin-bottom: 2.25em;
 }
 
 /* MEDIA QUERIES */
