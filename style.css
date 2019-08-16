@@ -70,11 +70,10 @@ a:hover {
 }
 
 .ufo {
-    transform:rotate(-10deg);
-    height: 125%;
+    transform:rotate(-22deg);
     position: absolute;
     top: 25%;
-    left: 0%;
+    left: -50%;
     z-index: 9999;
 }
 
@@ -87,16 +86,14 @@ a:hover {
   @keyframes ufo {
 from {
     transform:rotate(-10deg);
-    height: 125%;
     position: absolute;
     top: 25%;
-    left: 0%;
+    left: -50%;
     z-index: 9999;
     opacity: 1;
 }
 to {
     transform:rotate(0deg);
-    height: 0%;
     position: absolute;
     top: 1.5%;
     left: 60%;
@@ -740,14 +737,6 @@ input:focus, select:focus, textarea:focus, button:focus {
     margin: 0 0 .5em 0;
 }
 
-.small-container-left a {
-    color: #F9304D !important;
-}
-
-.small-container-left a:hover {
-    color: #16253c !important;
-}
-
 .buttons {
     margin: 0 0 0em 0;
 }
@@ -759,12 +748,18 @@ input:focus, select:focus, textarea:focus, button:focus {
 #fb-blue, #tw-blue, #yt-blue, #twitch-blue {
     width: 2em;
     display: inline-block;
-    padding: 0 .375em 0 0;
+    padding: 0 .5em 0 0;
+    margin: 0 0 0.25em 0;
 }
 
 .social-text {
     position: relative;
-    top: -.75em;
+    top: -1em;
+}
+
+hr {
+    margin: 0 0 0.6em 0;
+    opacity: 0.25;
 }
 
 /* MEDIA QUERIES */

@@ -157,7 +157,7 @@ loadComic(newest);
     $("#nav-btn-first").click(function () {
         $(".comic-insert").html(firstComic);
         if (counter === 0) {
-            alert("Stop pressing that!");
+            alert("You can't go back any further!");
         }
         counter = 0;
         $(`select>option:eq(${counter})`).prop('selected', true);
@@ -166,7 +166,7 @@ loadComic(newest);
     $("#nav-btn-latest").click(function () {
         $(".comic-insert").html(latestComic);
         if (counter === newest) {
-            alert("You've reached the end. Check back soon for more comics!");
+            alert("This is it. Check back soon for more comics!");
         }
         counter = newest;
         $(`select>option:eq(${counter})`).prop('selected', true);
@@ -176,7 +176,7 @@ loadComic(newest);
         $(".comic-insert").html(comicList[counter - 1]);
         counter = counter - 1;
         if (counter < 0) {
-            alert("Going back any further will break the space-time continuum.");
+            alert("There is nothing beyond this point!");
             counter = 0;
         }
         $(`select>option:eq(${counter})`).prop('selected', true);

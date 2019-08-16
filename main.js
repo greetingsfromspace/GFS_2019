@@ -187,10 +187,53 @@ $(document).on("mouseout",".archive-list li a", function () {
     $(this).parent().removeClass("archive-item-active");
 });
 
+/* ABOUT */
 
+$("#abt-char-img").mouseenter(function() {
+    this.src = "images/abt_char_active.jpg"
+});
 
+$("#abt-char-img").mouseout(function() {
+    this.src = "images/abt_char.jpg"
+});
 
+/* CONTACT */
 
+$("#soc-twit-text").mouseenter(function () {
+    $("#tw-blue").attr("src", "images/twitter-blue.png");
+
+});
+
+$("#soc-twit-text").mouseout(function () {
+    $("#tw-blue").attr("src", "images/twitter-4-48-a.png");
+});
+
+$("#soc-fb-text").mouseenter(function () {
+    $("#fb-blue").attr("src", "images/facebook-blue.png");
+
+});
+
+$("#soc-fb-text").mouseout(function () {
+    $("#fb-blue").attr("src", "images/facebook-2-48-a.png");
+});
+
+$("#soc-yt-text").mouseenter(function () {
+    $("#yt-blue").attr("src", "images/yt-blue.png");
+
+});
+
+$("#soc-yt-text").mouseout(function () {
+    $("#yt-blue").attr("src", "images/yt-red.png");
+});
+
+$("#soc-twitch-text").mouseenter(function () {
+    $("#twitch-blue").attr("src", "images/twitch-blue.png");
+
+});
+
+$("#soc-twitch-text").mouseout(function () {
+    $("#twitch-blue").attr("src", "images/twitch-red.png");
+});
 
 
 });
