@@ -1,9 +1,8 @@
+ESTIMATED LAUNCH: AUGUST 18, 2019
+
 PRE-LAUNCH:
 
-[✔] Find a host
-[✔] Register a domain name
-[✔] Upload
-[ ] Create Facebook launch banner
+[ ] Create Facebook launch banner/image
 [ ] Create Scheduled Facebook Post
 [ ] Draft Tweet
 
@@ -13,22 +12,13 @@ POST-LAUNCH:
 
 ASAP:
 
-[✔] Add "GO" button to Comic Dropdown
-[ ] Fix Archive page for mobile
-    [✔] a. Pixel 2 XL Landscape
-    [✔] b. iPhone 5/SE Landscape & Portrait
-    [✔] c. Samsung Browser for Android (shrinks viewport)
-[✔] Fix padding on News image div (mobile)
-[✔] Change H2 size for mobile
-[✔] Add version number to footer (1.0.1)
-[✔] Change Social Media button colors
-
+[ ] Fix comic dropdown menu on index (Current JS does not work with mobile)
+[ ] Fix Random Button "sticking"
+[ ] Fix Random Button padding to match nav
 
 FUTURE:
 
-[ ] Optimize code/better organize CSS
+[-] Optimize code/better organize CSS
 [ ] Integrate Spotify playlist
 [ ] "Extras" button beside Random on index
-[✔] Media queries for mobile news/content layouts
 [ ] Make footer placement more consistent between pages (web and mobile)
-[✔] Fix padding on contact page buttons (mobile)
