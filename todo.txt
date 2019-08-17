@@ -1,28 +1,32 @@
-Things to do before launch:
+PRE-LAUNCH:
 
-1.  Media Queries [✔]
-     a. Fix Archive for mobile [✔]
-     b. Fix Contact Page textarea padding for mobile [✔]
-     c. Fix Stuff page padding for mobile [✔]
-     d. Center logo/navigation for mobile [✔]
-2.  Make logo clickable, direct to index [✔]
-     b. Make logo in on load [✔]
-3.  Fix nav button jitter [✔]
-4.  Load header and footer via JavaScript [✔]
-5.  Tweak UFO animation so it doesn't stretch the page vertically [✔]
-6.  Tweak social media panel on Contact page [✔]
-7.  Add mouse-over on About page image [✔]
-8.  Review all copy [✔]
-     a. Change "Back" to "Back to Archive" on Archive sub-pages. [✔]
-9.  Fix comic navigation buttons [✔]
-10. Fix padding on Contact social panel (mobile) [✔]
+[✔] Find a host
+[✔] Register a domain name
+[✔] Upload
+[ ] Create Facebook launch banner
+[ ] Create Scheduled Facebook Post
+[ ] Draft Tweet
+
+POST-LAUNCH:
+
+[ ] Update all socials with new URL
+
+ASAP:
+
+[ ] Add "GO" button to Comic Dropdown
+[ ] Fix Archive page for mobile
+    [ ] a. Pixel 2 XL Landscape
+    [ ] b. iPhone 5/SE Landscape & Portrait
+    [ ] c. Samsung Browser for Android (shrinks viewport)
+[ ] Fix padding on News image div (mobile)
+[ ] Change H1~ size for mobile?
 
 
-Post-launch:
+FUTURE:
 
-1.  Optimize code/better organize CSS
-2.  Develop system for "quick posting"
-3.  Integrate Spotify playlist
-4.  "Extras" button beside random on index (for rough sketches etc)
-5.  Media queries for news/content layouts
-6.  Make footer placement more consistent between pages (web and mobile)
+[ ] Optimize code/better organize CSS
+[ ] Integrate Spotify playlist
+[ ] "Extras" button beside Random on index
+[ ] Media queries for mobile news/content layouts
+[ ] Make footer placement more consistent between pages (web and mobile)
+[ ] Fix padding on contact page buttons (mobile)
