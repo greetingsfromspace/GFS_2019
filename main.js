@@ -56,7 +56,8 @@ $(document).ready(function () {
     /* FOOTER */
 
     const footer = `<div class="copyright" id="copyright">
-                    <p>&COPY; Copyright 2011-2019 <a href="mailto: gfscomic@gmail.com" alt="Andrew Clanahan">Andrew Clanahan</a></p>
+                    <p>&COPY; Copyright 2011-2019, All Rights Reserved
+                    <br>Version 1.0.1</p>
                     </div>
 
                     <div class="social-footer" id="social-footer">
@@ -205,39 +206,39 @@ $("#abt-char-img").mouseout(function() {
 /* CONTACT */
 
 $("#soc-twit-text").mouseenter(function () {
-    $("#tw-blue").attr("src", "images/twitter-blue.png");
+    $("#tw-blue").attr("src", "images/twitter-4-48-a.png");
 
 });
 
 $("#soc-twit-text").mouseout(function () {
-    $("#tw-blue").attr("src", "images/twitter-4-48-a.png");
+    $("#tw-blue").attr("src", "images/twitter-blue.png");
 });
 
 $("#soc-fb-text").mouseenter(function () {
-    $("#fb-blue").attr("src", "images/facebook-blue.png");
+    $("#fb-blue").attr("src", "images/facebook-2-48-a.png");
 
 });
 
 $("#soc-fb-text").mouseout(function () {
-    $("#fb-blue").attr("src", "images/facebook-2-48-a.png");
+    $("#fb-blue").attr("src", "images/facebook-blue.png");
 });
 
 $("#soc-yt-text").mouseenter(function () {
-    $("#yt-blue").attr("src", "images/yt-blue.png");
+    $("#yt-blue").attr("src", "images/yt-red.png");
 
 });
 
 $("#soc-yt-text").mouseout(function () {
-    $("#yt-blue").attr("src", "images/yt-red.png");
+    $("#yt-blue").attr("src", "images/yt-blue.png");
 });
 
 $("#soc-twitch-text").mouseenter(function () {
-    $("#twitch-blue").attr("src", "images/twitch-blue.png");
+    $("#twitch-blue").attr("src", "images/twitch-red.png");
 
 });
 
 $("#soc-twitch-text").mouseout(function () {
-    $("#twitch-blue").attr("src", "images/twitch-red.png");
+    $("#twitch-blue").attr("src", "images/twitch-blue.png");
 });
 
 

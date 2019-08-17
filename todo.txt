@@ -13,13 +13,15 @@ POST-LAUNCH:
 
 ASAP:
 
-[ ] Add "GO" button to Comic Dropdown
+[✔] Add "GO" button to Comic Dropdown
 [ ] Fix Archive page for mobile
-    [ ] a. Pixel 2 XL Landscape
-    [ ] b. iPhone 5/SE Landscape & Portrait
-    [ ] c. Samsung Browser for Android (shrinks viewport)
-[ ] Fix padding on News image div (mobile)
-[ ] Change H1~ size for mobile?
+    [✔] a. Pixel 2 XL Landscape
+    [✔] b. iPhone 5/SE Landscape & Portrait
+    [✔] c. Samsung Browser for Android (shrinks viewport)
+[✔] Fix padding on News image div (mobile)
+[✔] Change H2 size for mobile
+[✔] Add version number to footer (1.0.1)
+[✔] Change Social Media button colors
 
 
 FUTURE:
@@ -27,6 +29,6 @@ FUTURE:
 [ ] Optimize code/better organize CSS
 [ ] Integrate Spotify playlist
 [ ] "Extras" button beside Random on index
-[ ] Media queries for mobile news/content layouts
+[✔] Media queries for mobile news/content layouts
 [ ] Make footer placement more consistent between pages (web and mobile)
-[ ] Fix padding on contact page buttons (mobile)
+[✔] Fix padding on contact page buttons (mobile)

@@ -103,7 +103,7 @@ $(document).ready(function () {
                         <a href=\"17-urban-myth.html\"><img src=\"images/comics/17.png\" alt=\"Greetings From Space #17: Urban Myth\"></a>\
                         </div>", 
                         "<div class=\"comic-title\" id=\"comic-title\">\
-                        <h2>#18 <span class=\"bolder\">The Adventures of Joe Pesci, Vol. I</span></h2>\
+                        <h2>#18 <span class=\"bolder\">Joe Pesci Goes Game Shopping</span></h2>\
                         </div>\
                         <div class=\"comic-img\" id=\"comic-img\">\
                         <a href=\"18-joe-pesci.html\"><img src=\"images/comics/18.png\" alt=\"Greetings From Space #18: The Adventures of Joe Pesci, Vol. I\"></a>\
