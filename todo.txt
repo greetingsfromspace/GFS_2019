@@ -14,7 +14,7 @@ ASAP:
 
 [✔] Fix bottom padding on News/Stuff H1 elements
 [✔] Fix Stuff page link color
-[ ] Fix comic dropdown menu on index (Current JS does not work with mobile)
+[✔] Fix comic dropdown menu on index (Current JS does not work with mobile)
 [✔] Fix Random Button "sticking"
 [✔] Fix Random Button padding to match nav
 
@@ -22,5 +22,5 @@ FUTURE:
 
 [-] Optimize code/better organize CSS
 [ ] Integrate Spotify playlist
-[ ] "Extras" button beside Random on index
+[ ] Add "Extras" to Archive pages
 [ ] Make footer placement more consistent between pages (web and mobile)

@@ -23,12 +23,12 @@ $(document).ready(function () {
                     </a>
 
                     <div class="nav" id="nav">
-                    <a href="./index.html"><div class="nav-btn" id="nav-home">Home</div></a>
-                    <a href="./about.html"><div class="nav-btn" id="nav-about">About</div></a>
-                    <a href="./news.html"><div class="nav-btn" id="nav-news">News</div></a>
-                    <a href="./stuff.html"><div class="nav-btn" id="nav-stuff">Stuff</div></a>                
-                    <a href="./archive.html"><div class="nav-btn" id="nav-archive">Archive</div></a>
-                    <a href="./contact.html"><div class="nav-btn" id="nav-contact">Contact</div></a>
+                    <a href="./index.html"><div class="nav-btn1" id="nav-home">Home</div></a>
+                    <a href="./about.html"><div class="nav-btn1" id="nav-about">About</div></a>
+                    <a href="./news.html"><div class="nav-btn1" id="nav-news">News</div></a>
+                    <a href="./stuff.html"><div class="nav-btn2" id="nav-stuff">Stuff</div></a>                
+                    <a href="./archive.html"><div class="nav-btn2" id="nav-archive">Archive</div></a>
+                    <a href="./contact.html"><div class="nav-btn2" id="nav-contact">Contact</div></a>
                     </div>`
 
     function loadHeader (n) {
@@ -73,19 +73,35 @@ function loadFooter (n) {
 
     /* MENU NAVIGATION */
 
-    $(".nav-btn").mouseenter(function () {
+    $(".nav-btn1").mouseenter(function () {
         $(event.currentTarget).removeClass("nav-btn-a").addClass("nav-btn-a");
     });
 
-    $(".nav-btn").mouseout(function () {
+    $(".nav-btn1").mouseout(function () {
         $(event.currentTarget).removeClass("nav-btn-a");
     });
 
-    $(".nav-btn").mousedown(function () {
+    $(".nav-btn1").mousedown(function () {
         $(event.currentTarget).toggleClass("nav-btn-click");
     });
 
-    $(".nav-btn").mouseup(function () {
+    $(".nav-btn1").mouseup(function () {
+        $(event.currentTarget).toggleClass("nav-btn-click");
+    });
+
+    $(".nav-btn2").mouseenter(function () {
+        $(event.currentTarget).removeClass("nav-btn-b").addClass("nav-btn-b");
+    });
+
+    $(".nav-btn2").mouseout(function () {
+        $(event.currentTarget).removeClass("nav-btn-b");
+    });
+
+    $(".nav-btn2").mousedown(function () {
+        $(event.currentTarget).toggleClass("nav-btn-click");
+    });
+
+    $(".nav-btn2").mouseup(function () {
         $(event.currentTarget).toggleClass("nav-btn-click");
     });
 
@@ -155,6 +171,7 @@ function loadFooter (n) {
 
     $(".random-btn").mouseup(function () {
         $(event.currentTarget).removeClass("random-btn-click");
+        $(event.currentTarget).removeClass("random-btn-a");
     });
 
     /* SOCIAL BUTTONS */
@@ -243,5 +260,26 @@ $("#soc-twitch-text").mouseout(function () {
     $("#twitch-blue").attr("src", "images/twitch-blue.png");
 });
 
-
 });
+
+/* END OF JQUERY */
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
