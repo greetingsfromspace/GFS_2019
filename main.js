@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     const footer = `<div class="copyright" id="copyright">
                     <p>&COPY; Copyright 2011-2019, All Rights Reserved
-                    <br>Version 1.0.1</p>
+                    <br>Version 1.0.2</p>
                     </div>
 
                     <div class="social-footer" id="social-footer">

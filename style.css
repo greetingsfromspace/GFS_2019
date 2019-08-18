@@ -544,6 +544,11 @@ h4 {
     opacity: 0.5;
 }
 
+.news-stuff-adjustment {
+    position: relative;
+    top: -.8em;
+}
+
 .news-title {
     position: relative;
     top: -.875em;

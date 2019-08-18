@@ -2,25 +2,18 @@ ESTIMATED LAUNCH: AUGUST 18, 2019
 
 PRE-LAUNCH:
 
-[ ] Create Facebook launch banner/image
-[ ] Create Scheduled Facebook Post
 [ ] Draft Tweet
 
 POST-LAUNCH:
 
 [ ] Update all socials with new URL
 
-ASAP:
-
-[✔] Fix bottom padding on News/Stuff H1 elements
-[✔] Fix Stuff page link color
-[✔] Fix comic dropdown menu on index (Current JS does not work with mobile)
-[✔] Fix Random Button "sticking"
-[✔] Fix Random Button padding to match nav
-
-FUTURE:
+NON-URGENT:
 
 [-] Optimize code/better organize CSS
 [ ] Integrate Spotify playlist
 [ ] Add "Extras" to Archive pages
 [ ] Make footer placement more consistent between pages (web and mobile)
+[ ] Change social button hover in Footer to blue
+[ ] Fix social button/link hover on Contact page
+[ ] Change Name/Email field width to 100% for 360px display or less
