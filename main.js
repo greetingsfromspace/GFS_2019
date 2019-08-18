@@ -140,19 +140,21 @@ function loadFooter (n) {
     /* RANDOM BUTTON */
 
     $(".random-btn").mouseenter(function () {
-        $(event.currentTarget).toggleClass("random-btn-a");
+        $(event.currentTarget).removeClass("random-btn-a");
+        $(event.currentTarget).addClass("random-btn-a");
     });
 
     $(".random-btn").mouseout(function () {
-        $(event.currentTarget).toggleClass("random-btn-a");
+        $(event.currentTarget).removeClass("random-btn-a");
     });
 
     $(".random-btn").mousedown(function () {
-        $(event.currentTarget).toggleClass("random-btn-click");
+        $(event.currentTarget).addClass("random-btn-click");
+        $(event.currentTarget).removeClass("random-btn-a");
     });
 
     $(".random-btn").mouseup(function () {
-        $(event.currentTarget).toggleClass("random-btn-click");
+        $(event.currentTarget).removeClass("random-btn-click");
     });
 
     /* SOCIAL BUTTONS */

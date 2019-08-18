@@ -141,22 +141,22 @@ to {
     text-decoration: none;
 }
 
-.nav-btn {
-    background-color: #F9304D;
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: .05em;
-    text-transform: uppercase;
-    height: auto;
-    width: auto;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 1% 2%;
-    margin: .2em .075em;
-    border-radius: 1.5px;
-}
+    .nav-btn {
+        background-color: #F9304D;
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: .05em;
+        text-transform: uppercase;
+        height: auto;
+        width: auto;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 1% 2%;
+        margin: .2em .075em;
+        border-radius: 1.5px;
+    }
 
 .nav-btn-a {
     font-size: 1rem;
@@ -351,7 +351,7 @@ h4 {
     letter-spacing: .05em;
     text-transform: uppercase;
     height: auto;
-    max-width: 92px;
+    width: 75px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -539,8 +539,11 @@ h4 {
 
 .news-date {
     opacity: 0.5;
+}
+
+.news-title {
     position: relative;
-    top: .875em;
+    top: -.875em;
 }
 
 .inline-img-container {
@@ -700,6 +703,15 @@ input:focus, select:focus, textarea:focus, button:focus {
 
 .small-container a:hover {
     color: #F9304D;
+}
+
+.default-link a {
+    color: #F9304D;
+    text-decoration: underline;
+}
+
+.default-link a:hover {
+    color: #2688B4;
 }
 
 .follow {
