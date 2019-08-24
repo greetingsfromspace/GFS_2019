@@ -137,6 +137,12 @@ $(document).ready(function () {
                         </div>\
                         <div class=\"comic-img\" id=\"comic-img\">\
                         <a href=\"23-looking-out-for-number-one.html\"><img src=\"images/comics/23.png\" alt=\"Greetings From Space #23: Looking Out For Number One\"></a>\
+                        </div>",
+                        "<div class=\"comic-title\" id=\"comic-title\">\
+                        <h2>#24 <span class=\"bolder\">Mooooon</span></h2>\
+                        </div>\
+                        <div class=\"comic-img\" id=\"comic-img\">\
+                        <a href=\"24-mooooon.html\"><img src=\"images/comics/24.png\" alt=\"Greetings From Space #24: Mooooon\"></a>\
                         </div>"
                     ];
 
@@ -317,5 +323,11 @@ $("#drop-23").click(function () {
     $(".comic-insert").html(comicList[22]);
     counter = 22;
 })
+
+$("#drop-24").click(function () {
+    $(".comic-insert").html(comicList[23]);
+    counter = 23;
+})
+
 
 });

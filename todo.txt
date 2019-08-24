@@ -1,17 +1,11 @@
-ESTIMATED LAUNCH: AUGUST 18, 2019
+TO DO:
 
-PRE-LAUNCH:
-
-[ ] Draft Tweet
-
-POST-LAUNCH:
-
-[ ] Update all socials with new URL
-
-NON-URGENT:
+[ ] Finish comic #24
+[ ] Add comment for #24
 
 [-] Optimize code/better organize CSS
 [ ] Integrate Spotify playlist
+[ ] Add Discord link to Contact page (and update Discord)
 [ ] Add "Extras" to Archive pages
 [ ] Make footer placement more consistent between pages (web and mobile)
 [ ] Change social button hover in Footer to blue
